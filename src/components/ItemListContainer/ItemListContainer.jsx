@@ -12,7 +12,7 @@ export const ItemListContainer = () => {
   useEffect(() => {
     if(idCategoria) { //undefined me da falso
       consultarBDD('../json/productos.json').then(products => {
-        const prods = products.filter(prod => prod.idCategoria === parseInt(idCategoria))
+        const prods = products.filter(prod => prod.categoria === idCategoria)
         const items = ItemList({prods})
         setProductos(items)
       })

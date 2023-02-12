@@ -2,6 +2,7 @@
     {
         "id": 1,
         "idCategoria": 1,
+        "categoria": "Chalecos",
         "nombre": "VEST",
         "marca": "13Vidaz",
         "modelo": "SILVER / PREMIUM",
@@ -12,6 +13,7 @@
     {
         "id": 2,
         "idCategoria": 1,
+        "categoria": "Chalecos",
         "nombre": "VEST",
         "marca": "13Vidaz",
         "modelo": "S23 / Limited Edition",
@@ -22,6 +24,7 @@
     {
         "id": 3,
         "idCategoria": 1,
+        "categoria": "Chalecos",
         "nombre": "VEST",
         "marca": "13Vidaz",
         "modelo": "PRESIDENT / NEGRO",
@@ -32,6 +35,7 @@
     {
         "id": 4,
         "idCategoria": 2 ,
+        "categoria": "Camperas",
         "nombre": "PILOT",
         "marca": "13Vidaz",
         "modelo": "SR23 / IMP.",
@@ -42,6 +46,7 @@
     {
         "id": 5,
         "idCategoria": 4,
+        "categoria": "Pantalones",
         "nombre": "PANTS-B",
         "marca": "13Vidaz",
         "modelo": "VG / 22",
@@ -52,6 +57,7 @@
     {
         "id": 6,
         "idCategoria": 4,
+        "categoria": "Pantalones",
         "nombre": "PANTS-S",
         "marca": "13Vidaz",
         "modelo": "PULSE / BLACK",
@@ -62,6 +68,7 @@
     {
         "id": 7,
         "idCategoria": 4,
+        "categoria": "Pantalones",
         "nombre": "LEGG-P",
         "marca": "13Vidaz",
         "modelo": "BOMB",
@@ -72,6 +79,7 @@
     {
         "id": 8,
         "idCategoria": 3,
+        "categoria": "Remeras",
         "nombre": "TSHIRT / 13",
         "marca": "13Vidaz ",
         "modelo": "/ WHITE",
@@ -82,6 +90,7 @@
     {
         "id": 9,
         "idCategoria": 3,
+        "categoria": "Remeras",
         "nombre": "TSHIRT / 13",
         "marca": "13Vidaz",
         "modelo": "/ BEIGE ",
@@ -92,6 +101,7 @@
     {
         "id": 10,
         "idCategoria": 3,
+        "categoria": "Remeras",
         "nombre": "TSHIRT / 13",
         "marca": "13Vidaz",
         "modelo": "/ BLACK",
