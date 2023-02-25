@@ -38,7 +38,7 @@ export const Categorias = () => {
             )
           })
         }
-          </ul>
+      </ul>
     </li>
   )
 }
