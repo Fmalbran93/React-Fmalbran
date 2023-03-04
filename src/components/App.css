@@ -16,6 +16,12 @@
     text-align: center;
 }
 
+.cardBodyDark {
+    background-color: hsl(0, 0%, 33%);
+    margin-bottom: 3px;
+    text-align: center;
+}
+
 img {
     margin-top: 3px;
 }
@@ -23,4 +29,18 @@ img {
 .itemDetail {
     max-width: 760px;
     margin-top: 20px;
+}
+
+.itemDetailBodyDark {
+    background: hsl(0, 0%, 33%);
+    color:white;
+}
+
+.contForm {
+    margin-top: 20px;
+}
+
+.darkMode {
+    background-color: black;
+    color:gainsboro;
 }

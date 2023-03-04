@@ -10,10 +10,10 @@ export const ItemCount = ({ValInicial, stock, onAdd}) => {
 
   return (
     <div>
-      <button className="btn btn-dark" onClick={()=> restar()}>-</button> 
+      <button className="btn btn-outline-primary" onClick={()=> restar()}>-</button> 
       {contador}
-      <button className="btn btn-dark" onClick={()=> sumar()}>+</button>
-      <button className="btn btn-light" onClick={()=> onAdd(contador)}>Agregar al Carrito</button>
+      <button className="btn btn-outline-primary" onClick={()=> sumar()}>+</button>
+      <button className="btn btn-outline-primary" onClick={()=> onAdd(contador)}>Agregar al Carrito</button>
     </div>
   )
 }

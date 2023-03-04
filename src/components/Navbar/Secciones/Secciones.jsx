@@ -3,7 +3,7 @@ export const Secciones = () => {
   return (
     <>
         <li className="nav-item">
-          <Link className="nav-link" to={'/'}><button className="btn btn-dark">Inicio</button></Link>
+          <Link className="nav-link" to={'/'}><button className="btn btn-outline-light">Inicio</button></Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Redes</a>

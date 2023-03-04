@@ -49,7 +49,7 @@ export const Checkout = () => {
                     <label htmlFor="direccion" className="form-label">Direccion</label>
                     <input type="text" className="form-control" name="direccion" />
                 </div>
-                <button type="submit" className="btn btn-dark">Finalizar compra</button>
+                <button type="submit" className="btn btn-outline-primary">Finalizar compra</button>
 
           </form>
      </div>

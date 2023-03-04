@@ -15,7 +15,7 @@ export const ItemDetailContainer = () => {
     }, [])
 
     return (
-        <div className="card mb-3 container itemDetail">
+        <div className="card mb-3 container itemDetail" style={{maxWidth: '540px', marginTop: '2rem'}}>
             <ItemDetail prod={producto}/>
         </div>
     )
