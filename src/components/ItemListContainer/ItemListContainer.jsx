@@ -13,12 +13,12 @@ export const ItemListContainer = () => {
     if(idCategoria) { //undefined me da falso
       consultarBDD('../json/productos.json').then(products => {
         const prods = products.filter(prod => prod.idCategoria === idCategoria)
-        const items = ItemList({prods})
+        const items = <ItemList prods ={prods} plantilla="Item"/>
         setProductos(items)
       })
     } else {
       consultarBDD('./json/productos.json').then(prods => {
-        const items = ItemList({prods})
+        const items = <ItemList prods ={prods} plantilla="Item"/>
         setProductos(items)
       })
     }

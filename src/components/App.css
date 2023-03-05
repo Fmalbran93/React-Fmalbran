@@ -22,6 +22,19 @@
     text-align: center;
 }
 
+.cartContainer {
+    margin-top: 3%;
+    margin-left: 26,5%;
+}
+
+.cardCart {
+    max-width: 640px;
+}
+
+.divButtons button {
+    margin: 4px;
+}
+
 img {
     margin-top: 3px;
 }
@@ -43,4 +56,9 @@ img {
 .darkMode {
     background-color: black;
     color:gainsboro;
+}
+
+.btn{
+    margin-top: 10px;
+    margin: 5px;
 }
