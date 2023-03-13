@@ -1,3 +1,5 @@
+
+
 .cardProducto {
     width: 18rem;
     margin:4px;
@@ -17,7 +19,7 @@
 }
 
 .cardBodyDark {
-    background-color: hsl(0, 0%, 33%);
+    background-color: hsl(197, 32%, 33%);
     margin-bottom: 3px;
     text-align: center;
 }
@@ -46,8 +48,8 @@ img {
 }
 
 .itemDetailBodyDark {
-    background: hsl(0, 0%, 33%);
-    color:white;
+    background: rgb(211, 219, 219);
+    color:rgb(14, 12, 12);
 }
 
 .contForm {
@@ -55,11 +57,89 @@ img {
 }
 
 .darkMode {
-    background-color: black;
-    color:gainsboro;
+    background-color: rgb(175, 206, 248);
+    color:rgb(14, 12, 12);
 }
 
 .btn{
     margin-top: 10px;
     margin: 5px;
 }
+
+form{
+    background-color: rgb(238, 232, 232);
+    padding: 20px;
+    border-radius: 5px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+h2{
+        font-size: 72px;
+        background: -webkit-linear-gradient(#5f5c5c, #db0808);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+label {
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: black;
+    font-weight: bold;
+}
+
+ 
+input {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+    button {
+    margin-top: 20px;
+  }
+
+
+
+  
+  .contForm {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 500px;
+  }
+  
+ 
+  .form-label {
+    font-weight: bold;
+  }
+  
+.form-control { 
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+    outline: none;
+  }
+  
+ 
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
