@@ -11,6 +11,7 @@ export const Checkout = () => {
     const datosForm = useRef()
     const [formValid, setFormValid] = useState(false) // Agregar estado local
   
+    // VALIDACION DEL FORM; Deshabilita el boton de "finalizar compra" si no estan los campos completos
     const validarForm = () => {
       const form = datosForm.current
       const requiredFields = form.querySelectorAll('[required]')
@@ -83,8 +84,9 @@ export const Checkout = () => {
             </Link>
           </div>
         ) : (
-          <div className="container contForm">
-            <form onSubmit={consultarForm} ref={datosForm}>
+            // Le agrego atributo required a los input para validacion
+          <div className="container contForm"> 
+            <form onSubmit={consultarForm} ref={datosForm}> 
               <div className="mb-3">
                 <label htmlFor="nombre" className="form-label">
                   Nombre y Apellido
@@ -93,7 +95,7 @@ export const Checkout = () => {
                   type="text"
                   className="form-control"
                   name="nombre"
-                  required // Agregar atributo required
+                  required 
                   onChange={handleChange}
                   />
                   </div>
@@ -105,7 +107,7 @@ export const Checkout = () => {
                   type="email"
                   className="form-control"
                   name="email"
-                  required // Agregar atributo required
+                  required 
                   onChange={handleChange}
                   />
                   </div>
@@ -117,7 +119,7 @@ export const Checkout = () => {
                   type="email"
                   className="form-control"
                   name="repeatEmail"
-                  required // Agregar atributo required
+                  required 
                   onChange={handleChange}
                   />
                   </div>
@@ -129,7 +131,7 @@ export const Checkout = () => {
                   type="text"
                   className="form-control"
                   name="direccion"
-                  required // Agregar atributo required
+                  required 
                   onChange={handleChange}
                   />
                   </div>
@@ -141,7 +143,7 @@ export const Checkout = () => {
                   type="tel"
                   className="form-control"
                   name="telefono"
-                  required // Agregar atributo required
+                  required 
                   onChange={handleChange}
                   />
                   </div>
