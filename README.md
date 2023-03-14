@@ -16,12 +16,12 @@ _Instalar React y las siguientes dependencias_
 
 ## Ejecutando la aplicacion
 
-_Para ejecutar la aplicacion agregue el siguiente comando en la terminal_
+_Para ejecutar la aplicacion agregue el siguiente comando en la terminal_*
 
 - npm run start
 
 
-_Luego vaya al:_ 
+***_Luego vaya al:_ ***
 ```
 localhost: 3000
 
@@ -31,3 +31,11 @@ localhost: 3000
 * [React] (https://es.reactjs.org/) - Fontend Framework
 * [Toastify] (https://www.npmjs.com/package/react-toastify) - Notificaciones
 * [Firebase] (https://firebase.google.com/) - Base de Datos
+
+
+***Comentario:***
+La estetica final sera agregada y modificada con el transcurso de los dias.
+
+***GRACIAS***
+
+***Entrega Final - Federico Malbran***
