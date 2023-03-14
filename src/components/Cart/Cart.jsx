@@ -9,8 +9,10 @@ export const Cart = () => {
         carrito.length === 0
           ? //Si no existen productos en el carrito
           <>
-            <h2>Carrito vacio</h2>
-            <Link className="nav-link" to={"/"}><button className="btn btn-primary">Continuar comprando</button></Link>
+            <div className="cartel">
+              <h2 >Carrito vacio</h2>
+              <Link className="nav-link" to={"/"}><button className="btn btn-primary">Continuar comprando</button></Link>
+            </div>
           </>
           : //Si existen productos en el carito
           <div className="container cartContainer">

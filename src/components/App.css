@@ -215,4 +215,42 @@ input {
     text-align: center;
     font-size: 12px;
     line-height: 20px;
+  } 
+
+
+  .cartel {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cartel h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .cartel button {
+    background-color: #721c24;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .cartel button:hover {
+    background-color: #fff;
+    color: #721c24;
+    border: 2px solid #721c24;
   }
