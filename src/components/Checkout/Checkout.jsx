@@ -64,7 +64,7 @@ export const Checkout = () => {
           navigate("/")
         })
       } else {
-        toast.error(`Los dos correos deben coincidir!`, {
+        toast.error(`Los correos electronicos no coinciden, por favor verifique que sean los mismo!`, {
           position: toast.POSITION.TOP_RIGHT
         });
       }
