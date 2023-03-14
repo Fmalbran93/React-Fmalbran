@@ -5,7 +5,7 @@ export const Footer = ({valor}) => {
 
 
   return (
-<footer >
+<footer>
     <div className="container-fluid">
       <p>© Todos los derechos Reservados . Fmalbran 2023</p> 
     </div>
