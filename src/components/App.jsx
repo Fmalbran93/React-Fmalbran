@@ -17,6 +17,7 @@ import { ItemListContainer } from './ItemListContainer/ItemListContainer';
 import { ItemDetailContainer } from './ItemDetailContainer/ItemDetailContainer';
 import { Checkout } from './Checkout/Checkout';
 import { Cart } from './Cart/Cart';
+import { Footer } from './Footer/Footer';
 export const App = () => {
 
   return (
@@ -35,6 +36,7 @@ export const App = () => {
             <ToastContainer />
           </CarritoProvider>
         </DarkModeProvider>
+        <Footer/>
       </BrowserRouter>
     </>
   )

@@ -254,3 +254,15 @@ input {
     color: #721c24;
     border: 2px solid #721c24;
   }
+
+  Footer{
+    background-Color: #050202;
+    color: #f5efef;
+    padding: 20px;
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+  }
+
