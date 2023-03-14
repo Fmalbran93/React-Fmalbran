@@ -10,7 +10,9 @@ _Ecommerce de la Comision 44996 de React de CoderHouse, creado por el alumno Fed
 _Instalar React y las siguientes dependencias_
 
 ```
-- npm i firebase react-router-dom  react-toastify react-fontawesome 
+- npm i firebase
+- npm i react-toastify 
+- npm i react-router-dom
 
 ```
 
